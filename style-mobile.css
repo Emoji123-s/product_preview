@@ -2,6 +2,10 @@
     display: none;
 }
 
+.image{
+   display: none;
+}
+
 @media screen and (max-width: 767px){
    body{
       background-color: hsl(30, 38%, 92%);
@@ -21,22 +25,17 @@
 
    .mobile-image{
       width: 45%;
-      height: 100%;
       display: block;
    }
 
    .mobile{
       width: 222%;
+      height: 100%;
       border-top-left-radius: 10px;
       border-top-right-radius: 10px;
    }
 
    .description{
-      width: 100%;
-   }
-
-   .imagetext{
-      display: flex;
-      flex-direction: column;
+      width: 50%;
    }
 }
