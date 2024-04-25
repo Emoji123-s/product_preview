@@ -180,6 +180,7 @@ h3 {
      
      .imagetext {
         padding: 10px 20px;
+        display: inline-block;
      }
      
      .imagetext h1 {
