@@ -82,11 +82,38 @@ h3 {
 
 .imagetext .strikethrough {
    position: absolute;
-   left: 75%;
-   bottom: 90px;
+   left: 45%;
+   bottom: 77px;
    font-size: 0.8rem;
    color:hsl(228, 12%, 48%);
    text-decoration: line-through;
    font-family: "Montserrat", sans-serif;
    font-weight: 600;
+}
+
+.links {
+   position: absolute;
+   left: 1%;
+   bottom: 5%;
+}
+
+.links a {
+   display: inline-block;
+   padding: 14px 90px;
+   border-radius: 5px;
+   background-color: hsl(158, 36%, 37%);
+   color: #fff;
+   text-decoration: none;
+   font-size: 12px;
+   font-weight: 700;
+   margin-left: 10px;
+   font-family: "Montserrat", sans-serif;
+   text-align: center;
+}
+
+.links .cart {
+   position: relative;
+   top: 2px;
+   left: 32%;
+   width: 14px;
 }
