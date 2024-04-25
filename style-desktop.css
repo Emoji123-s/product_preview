@@ -228,7 +228,7 @@ h3 {
     .imagetext .strikethrough {
         position: absolute;
         left: 45%;
-        bottom: 77px;
+        bottom: 70px;
         font-size: 0.8rem;
         color:hsl(228, 12%, 48%);
         text-decoration: line-through;
